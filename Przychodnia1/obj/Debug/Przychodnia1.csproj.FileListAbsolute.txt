@@ -1,0 +1,19 @@
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\bin\Debug\Przychodnia1.exe.config
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\bin\Debug\Przychodnia1.exe
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\bin\Debug\Przychodnia1.pdb
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\bin\Debug\MetroSet UI.dll
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.csprojAssemblyReference.cache
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.Properties.Resources.resources
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.csproj.GenerateResource.cache
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.csproj.CoreCompileInputs.cache
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.csproj.CopyComplete
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.exe
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.pdb
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.Form1.resources
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.Zaloguj.resources
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.Rejestracja.resources
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.Administrator.resources
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\bin\Debug\Dapper.dll
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\bin\Debug\Dapper.xml
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.AdministracjaLekarz.resources
+C:\Users\dawid\source\repos\Przychodnia1\Przychodnia1\obj\Debug\Przychodnia1.Start.resources
