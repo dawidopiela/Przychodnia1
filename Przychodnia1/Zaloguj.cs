@@ -15,62 +15,63 @@ namespace Przychodnia1
 {
     public partial class Zaloguj : MetroSetForm
     {
+        Rejestracja rejestracja = new Rejestracja();
+
+        //SqlConnection loginCon = new SqlConnection("Data Source=DESKTOP-H9TN478\SQLEXPRESS;Initial Catalog=STUDENT;Integrated Security=True");
+
         public Zaloguj()
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection();  
-       
-        {  
-            SqlConnection con = new SqlConnection();  
-            con.ConnectionString = "Data Source=DESKTOP-H9TN478\SQLEXPRESS;Initial Catalog=STUDENT;Integrated Security=True";  
-  
-            InitializeComponent();  
-        }  
-  
-    string myconn = ConfigurationManager.ConnectionStrings["Mojepoloczenie"].ConnectionString;
-            SqlConnection sqlconn = new SqlConnection(myconn);
-            string sqlquery = "select * from [dbo].[Pacjent] where values (@Email, @Pesel)";
-            sqlconn.Open();
-            SqlCommand sqlcomm = new SqlCommand(sqlquery,sqlconn);
-             sqlcomm.Parameters.AddWithValue("@Email", zalEmail.Text);
-            sqlcomm.Parameters.AddWithValue("@Pesel", zalPesel.Text);
-            sqlcomm.ExecuteNonQuery();
-           
-            sqlconn.Close();
-            using (Zaloguj zaloguj = new Zaloguj())
-                zaloguj.ShowDialog();
 
-            
-        
-        public static string welcomeuser = "";
+
+        //private void zalLogin_Click(object sender, EventArgs e)
+        //{
+
+            //    SqlConnection con = new SqlConnection();  
+            //public Form1()  
+            //{  
+            //    SqlConnection con = new SqlConnection();  
+            //    con.ConnectionString = "Data Source=DESKTOP-H9TN478\SQLEXPRESS;Integrated Security=True";  
+
+            //    InitializeComponent();  
+        //}
+
+
         private void zalLogin_Click(object sender, EventArgs e)
         {
-            
-            SqlConnection con = new SqlConnection();  
-            con.ConnectionString = "Data Source=DESKTOP-H9TN478\SQLEXPRESS;Integrated Security=True";  
-            con.Open();  
-            string userid = zalEmail.Text;  
-            string password = zalPesel.Text;  
-            SqlCommand cmd = new SqlCommand("select userid,password from Email where userid='" + zalEmail.Text + "'and password='" + zalPesel.Text + "'", con);  
-            SqlDataAdapter da = new SqlDataAdapter(cmd);  
-            DataTable dt = new DataTable();  
-            da.Fill(dt);  
-            if (dt.Rows.Count > 0  )  
-            {  
-                Start ss = new Start();
-                        this.Hide();
-                        ss.Show();
-            }  
-            else  
-            {  
-                MessageBox.Show("Invalid Login please check username and password");  
-            }  
-            con.Close();  
-        }  
-  
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-H9TN478\\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+            con.Open();
+            string userid = zalEmail.Text;
+            string password = zalPesel.Text;
+            SqlCommand cmd = new SqlCommand("select Email, Pesel from [Przychodnia].[dbo].[Pacjent] where Email='" + zalEmail.Text + "'and Pesel='" + zalPesel.Text + "'", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt.Rows.Count > 0 )
+            {
+                    using (Start start = new Start())
+                        start.ShowDialog();
+                   // MessageBox.Show("Login sucess Welcome to Homepage ");
 
-          
-        
+                
+               
+
+            }
+            else
+            {
+                MessageBox.Show("Niepoprawny login lub hasło");
+            }
+            con.Close();
+        }
+
+
+
+
+
+
+
+
+
     }
 }

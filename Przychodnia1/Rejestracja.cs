@@ -13,7 +13,7 @@ using System.Configuration;
 
 namespace Przychodnia1
 {
-    public partial class Rejestracja : MetroSetForm: Zaloguj
+    public partial class Rejestracja : MetroSetForm
     {
         public Rejestracja()
         {
@@ -42,5 +42,7 @@ namespace Przychodnia1
             using (Zaloguj zaloguj = new Zaloguj())
                 zaloguj.ShowDialog();
         }
+
+       
     }
 }

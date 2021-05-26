@@ -292,6 +292,7 @@ namespace Przychodnia1
             this.rejInfo.TabIndex = 16;
             this.rejInfo.ThemeAuthor = "Narwin";
             this.rejInfo.ThemeName = "MetroLite";
+            
             // 
             // Rejestracja
             // 

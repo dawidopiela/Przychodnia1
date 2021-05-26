@@ -218,7 +218,7 @@ namespace Przychodnia1
             this.Controls.Add(this.metroSetLabel1);
             this.Controls.Add(this.metroSetControlBox1);
             this.Name = "Zaloguj";
-            this.Load += new System.EventHandler(this.Zaloguj_Load);
+        
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

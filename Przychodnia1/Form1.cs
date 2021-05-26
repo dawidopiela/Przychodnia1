@@ -35,8 +35,8 @@ namespace Przychodnia1
 
         private void metroSetButton2_Click(object sender, EventArgs e)
         {
-            using (Zaloguj zaloguj = new Zaloguj())
-                zaloguj.ShowDialog();
+           using (Zaloguj zaloguj = new Zaloguj())
+               zaloguj.ShowDialog();
 
 
 
