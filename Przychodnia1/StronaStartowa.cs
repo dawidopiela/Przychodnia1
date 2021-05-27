@@ -25,5 +25,10 @@ namespace Przychodnia1
         {
 
         }
+
+        private void metroSetListBox1_SelectedIndexChanged(object sender)
+        {
+
+        }
     }
 }

@@ -42,9 +42,12 @@ namespace Przychodnia1
         {
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-H9TN478\\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             con.Open();
+            // Zczytujemy nasz 'connectionString' z pliku app.config
+            // Jeżeli brakuje Wam klasy ConfigurationManger dodajcie referencję do System.Configuration
             string userid = zalEmail.Text;
             string password = zalPesel.Text;
             SqlCommand cmd = new SqlCommand("select Email, Pesel from [Przychodnia].[dbo].[Pacjent] where Email='" + zalEmail.Text + "'and Pesel='" + zalPesel.Text + "'", con);
+            //tworzymy nowe polecenie
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             da.Fill(dt);

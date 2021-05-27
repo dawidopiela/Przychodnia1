@@ -32,19 +32,18 @@ namespace Przychodnia1
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.metroSetControlBox1 = new MetroSet_UI.Controls.MetroSetControlBox();
             this.metroSetTabControl1 = new MetroSet_UI.Controls.MetroSetTabControl();
-            this.metroSetSetTabPage1 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetSetTabPage2 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetLabel1 = new MetroSet_UI.Controls.MetroSetLabel();
             this.metroSetSetTabPage3 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetPanel1 = new MetroSet_UI.Controls.MetroSetPanel();
+            this.metroSetSetTabPage1 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetSetTabPage4 = new MetroSet_UI.Child.MetroSetSetTabPage();
-            this.metroSetListBox1 = new MetroSet_UI.Controls.MetroSetListBox();
+            this.metroSetButton3 = new MetroSet_UI.Controls.MetroSetButton();
+            this.metroSetLabel3 = new MetroSet_UI.Controls.MetroSetLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.metroSetButton1 = new MetroSet_UI.Controls.MetroSetButton();
             this.metroSetButton2 = new MetroSet_UI.Controls.MetroSetButton();
             this.metroSetLabel2 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.metroSetLabel3 = new MetroSet_UI.Controls.MetroSetLabel();
-            this.metroSetButton3 = new MetroSet_UI.Controls.MetroSetButton();
             this.metroSetButton4 = new MetroSet_UI.Controls.MetroSetButton();
             this.metroSetTabControl1.SuspendLayout();
             this.metroSetSetTabPage2.SuspendLayout();
@@ -105,24 +104,6 @@ namespace Przychodnia1
             this.metroSetTabControl1.ThemeName = "MetroLite";
             this.metroSetTabControl1.UnselectedTextColor = System.Drawing.Color.Gray;
             this.metroSetTabControl1.UseAnimation = false;
-            // 
-            // metroSetSetTabPage1
-            // 
-            this.metroSetSetTabPage1.BaseColor = System.Drawing.Color.White;
-            this.metroSetSetTabPage1.Font = null;
-            this.metroSetSetTabPage1.ImageIndex = 0;
-            this.metroSetSetTabPage1.ImageKey = null;
-            this.metroSetSetTabPage1.IsDerivedStyle = true;
-            this.metroSetSetTabPage1.Location = new System.Drawing.Point(4, 42);
-            this.metroSetSetTabPage1.Name = "metroSetSetTabPage1";
-            this.metroSetSetTabPage1.Size = new System.Drawing.Size(810, 360);
-            this.metroSetSetTabPage1.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetSetTabPage1.StyleManager = null;
-            this.metroSetSetTabPage1.TabIndex = 0;
-            this.metroSetSetTabPage1.Text = "metroSetSetTabPage1";
-            this.metroSetSetTabPage1.ThemeAuthor = "Narwin";
-            this.metroSetSetTabPage1.ThemeName = "MetroLite";
-            this.metroSetSetTabPage1.ToolTipText = null;
             // 
             // metroSetSetTabPage2
             // 
@@ -191,12 +172,29 @@ namespace Przychodnia1
             this.metroSetPanel1.ThemeAuthor = "Narwin";
             this.metroSetPanel1.ThemeName = "MetroLite";
             // 
+            // metroSetSetTabPage1
+            // 
+            this.metroSetSetTabPage1.BaseColor = System.Drawing.Color.White;
+            this.metroSetSetTabPage1.Font = null;
+            this.metroSetSetTabPage1.ImageIndex = 0;
+            this.metroSetSetTabPage1.ImageKey = null;
+            this.metroSetSetTabPage1.IsDerivedStyle = true;
+            this.metroSetSetTabPage1.Location = new System.Drawing.Point(4, 42);
+            this.metroSetSetTabPage1.Name = "metroSetSetTabPage1";
+            this.metroSetSetTabPage1.Size = new System.Drawing.Size(810, 360);
+            this.metroSetSetTabPage1.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetSetTabPage1.StyleManager = null;
+            this.metroSetSetTabPage1.TabIndex = 0;
+            this.metroSetSetTabPage1.Text = "metroSetSetTabPage1";
+            this.metroSetSetTabPage1.ThemeAuthor = "Narwin";
+            this.metroSetSetTabPage1.ThemeName = "MetroLite";
+            this.metroSetSetTabPage1.ToolTipText = null;
+            // 
             // metroSetSetTabPage4
             // 
             this.metroSetSetTabPage4.BaseColor = System.Drawing.Color.White;
             this.metroSetSetTabPage4.Controls.Add(this.metroSetButton3);
             this.metroSetSetTabPage4.Controls.Add(this.metroSetLabel3);
-            this.metroSetSetTabPage4.Controls.Add(this.metroSetListBox1);
             this.metroSetSetTabPage4.Font = null;
             this.metroSetSetTabPage4.ImageIndex = 0;
             this.metroSetSetTabPage4.ImageKey = null;
@@ -212,46 +210,45 @@ namespace Przychodnia1
             this.metroSetSetTabPage4.ThemeName = "MetroLite";
             this.metroSetSetTabPage4.ToolTipText = null;
             // 
-            // metroSetListBox1
+            // metroSetButton3
             // 
-            this.metroSetListBox1.BackColor = System.Drawing.Color.White;
-            this.metroSetListBox1.BorderColor = System.Drawing.Color.LightGray;
-            this.metroSetListBox1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.metroSetListBox1.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            this.metroSetListBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.metroSetListBox1.HoveredItemBackColor = System.Drawing.Color.LightGray;
-            this.metroSetListBox1.HoveredItemColor = System.Drawing.Color.DimGray;
-            this.metroSetListBox1.IsDerivedStyle = true;
-            this.metroSetListBox1.ItemHeight = 30;
-            this.metroSetListBox1.Items.Add("Poradnia Stomatologiczna");
-            this.metroSetListBox1.Items.Add("");
-            this.metroSetListBox1.Items.Add("Poradnia Alergologiczna");
-            this.metroSetListBox1.Items.Add("");
-            this.metroSetListBox1.Items.Add("Poradnia Chirurgiczna i Szpitalnictwo");
-            this.metroSetListBox1.Items.Add("");
-            this.metroSetListBox1.Items.Add("Poradnia kardiologiczna");
-            this.metroSetListBox1.Items.Add("");
-            this.metroSetListBox1.Items.Add("Poradnia leczenia bólu");
-            this.metroSetListBox1.Items.Add("");
-            this.metroSetListBox1.Items.Add("Poradnia medycyny sportowej");
-            this.metroSetListBox1.Location = new System.Drawing.Point(-4, 65);
-            this.metroSetListBox1.MultiSelect = false;
-            this.metroSetListBox1.Name = "metroSetListBox1";
-            this.metroSetListBox1.SelectedIndex = -1;
-            this.metroSetListBox1.SelectedItem = null;
-            this.metroSetListBox1.SelectedItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.metroSetListBox1.SelectedItemColor = System.Drawing.Color.White;
-            this.metroSetListBox1.SelectedText = null;
-            this.metroSetListBox1.SelectedValue = null;
-            this.metroSetListBox1.ShowBorder = false;
-            this.metroSetListBox1.ShowScrollBar = true;
-            this.metroSetListBox1.Size = new System.Drawing.Size(562, 169);
-            this.metroSetListBox1.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetListBox1.StyleManager = null;
-            this.metroSetListBox1.TabIndex = 0;
-            this.metroSetListBox1.ThemeAuthor = "Narwin";
-            this.metroSetListBox1.ThemeName = "MetroLite";
-            this.metroSetListBox1.SelectedIndexChanged += new MetroSet_UI.Controls.MetroSetListBox.SelectedIndexChangedEventHandler(this.metroSetListBox1_SelectedIndexChanged);
+            this.metroSetButton3.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton3.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton3.DisabledForeColor = System.Drawing.Color.Gray;
+            this.metroSetButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetButton3.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.metroSetButton3.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.metroSetButton3.HoverTextColor = System.Drawing.Color.White;
+            this.metroSetButton3.IsDerivedStyle = true;
+            this.metroSetButton3.Location = new System.Drawing.Point(413, 287);
+            this.metroSetButton3.Name = "metroSetButton3";
+            this.metroSetButton3.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton3.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton3.NormalTextColor = System.Drawing.Color.White;
+            this.metroSetButton3.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.metroSetButton3.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.metroSetButton3.PressTextColor = System.Drawing.Color.White;
+            this.metroSetButton3.Size = new System.Drawing.Size(161, 23);
+            this.metroSetButton3.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetButton3.StyleManager = null;
+            this.metroSetButton3.TabIndex = 2;
+            this.metroSetButton3.Text = "Wybierz";
+            this.metroSetButton3.ThemeAuthor = "Narwin";
+            this.metroSetButton3.ThemeName = "MetroLite";
+            // 
+            // metroSetLabel3
+            // 
+            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.metroSetLabel3.IsDerivedStyle = true;
+            this.metroSetLabel3.Location = new System.Drawing.Point(3, 17);
+            this.metroSetLabel3.Name = "metroSetLabel3";
+            this.metroSetLabel3.Size = new System.Drawing.Size(365, 23);
+            this.metroSetLabel3.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetLabel3.StyleManager = null;
+            this.metroSetLabel3.TabIndex = 1;
+            this.metroSetLabel3.Text = "Proszę wybierz poradnię";
+            this.metroSetLabel3.ThemeAuthor = "Narwin";
+            this.metroSetLabel3.ThemeName = "MetroLite";
             // 
             // pictureBox1
             // 
@@ -332,46 +329,6 @@ namespace Przychodnia1
             this.metroSetLabel2.ThemeName = "MetroDark";
             this.metroSetLabel2.Click += new System.EventHandler(this.metroSetLabel2_Click);
             // 
-            // metroSetLabel3
-            // 
-            this.metroSetLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.metroSetLabel3.IsDerivedStyle = true;
-            this.metroSetLabel3.Location = new System.Drawing.Point(3, 17);
-            this.metroSetLabel3.Name = "metroSetLabel3";
-            this.metroSetLabel3.Size = new System.Drawing.Size(365, 23);
-            this.metroSetLabel3.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetLabel3.StyleManager = null;
-            this.metroSetLabel3.TabIndex = 1;
-            this.metroSetLabel3.Text = "Proszę wybierz poradnię";
-            this.metroSetLabel3.ThemeAuthor = "Narwin";
-            this.metroSetLabel3.ThemeName = "MetroLite";
-            // 
-            // metroSetButton3
-            // 
-            this.metroSetButton3.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.metroSetButton3.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.metroSetButton3.DisabledForeColor = System.Drawing.Color.Gray;
-            this.metroSetButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.metroSetButton3.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.metroSetButton3.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.metroSetButton3.HoverTextColor = System.Drawing.Color.White;
-            this.metroSetButton3.IsDerivedStyle = true;
-            this.metroSetButton3.Location = new System.Drawing.Point(413, 287);
-            this.metroSetButton3.Name = "metroSetButton3";
-            this.metroSetButton3.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.metroSetButton3.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.metroSetButton3.NormalTextColor = System.Drawing.Color.White;
-            this.metroSetButton3.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.metroSetButton3.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.metroSetButton3.PressTextColor = System.Drawing.Color.White;
-            this.metroSetButton3.Size = new System.Drawing.Size(161, 23);
-            this.metroSetButton3.Style = MetroSet_UI.Enums.Style.Light;
-            this.metroSetButton3.StyleManager = null;
-            this.metroSetButton3.TabIndex = 2;
-            this.metroSetButton3.Text = "Wybierz";
-            this.metroSetButton3.ThemeAuthor = "Narwin";
-            this.metroSetButton3.ThemeName = "MetroLite";
-            // 
             // metroSetButton4
             // 
             this.metroSetButton4.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
@@ -436,7 +393,6 @@ namespace Przychodnia1
         private MetroSet_UI.Controls.MetroSetButton metroSetButton2;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel2;
         private MetroSet_UI.Controls.MetroSetPanel metroSetPanel1;
-        private MetroSet_UI.Controls.MetroSetListBox metroSetListBox1;
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel3;
         private MetroSet_UI.Controls.MetroSetButton metroSetButton3;
         private MetroSet_UI.Controls.MetroSetButton metroSetButton4;
